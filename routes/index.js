@@ -11,7 +11,7 @@ const GetHostname = (req) => {
   return result;
 }
 
-let title = "Free Rest API | Online API's Tools";
+let title = "Free Rest API | By Rizka";
 
 router.get('/doc/hash_identifier', (req, res) => {
   let header = req.header('x-forwarded-proto');
